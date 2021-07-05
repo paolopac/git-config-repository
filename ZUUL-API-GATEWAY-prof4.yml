@@ -22,7 +22,7 @@ zuul:
       sensitive-headers: Cookie,Set-Cookie
     promo:
       path: /getpromo/**
-      serviceId: PROMO-SERVER
+      serviceId: PROMO-SERVICE
       sensitive-headers: Cookie, Set-Cookie
 
 
