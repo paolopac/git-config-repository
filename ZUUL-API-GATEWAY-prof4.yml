@@ -21,7 +21,7 @@ zuul:
       serviceId: ART-SERVER
       sensitive-headers: Cookie,Set-Cookie
     promo:
-      path:/getpromo/**
+      path: /getpromo/**
       serviceId: PROMO-SERVER
       sensitive-headers: Cookie, Set-Cookie
 
