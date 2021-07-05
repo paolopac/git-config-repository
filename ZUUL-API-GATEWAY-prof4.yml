@@ -20,6 +20,10 @@ zuul:
       path: /getart/**
       serviceId: ART-SERVER
       sensitive-headers: Cookie,Set-Cookie
+    promo:
+      path:/getpromo/**
+      serviceId: PROMO-SERVER
+      sensitive-headers: Cookie, Set-Cookie
 
 
 ribbon:
